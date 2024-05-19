@@ -1,0 +1,91 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #001D3D; /* Color de fondo personalizado */
+    color: white; /* Color de texto personalizado */
+    padding: 10px; /* Espaciado interno del encabezado */
+}
+
+header img {
+    margin-right: 10px; /* Espacio a la derecha de la imagen */
+}
+
+header .mx-auto {
+    width: 100%; /* Asegura que el contenedor se expanda */
+    max-width: 800px; /* Ancho máximo del contenedor */
+}
+
+header form {
+    margin-top: 10px; /* Espacio superior del formulario */
+}
+
+header .form-control {
+    width: 100%; /* Ancho completo del campo de búsqueda */
+    max-width: 500px; /* Ancho máximo del campo de búsqueda */
+}
+
+header .btn-primary {
+    background-color: #FFD700; /* Color de fondo personalizado para el botón */
+    border-color: #FFD700; /* Color de borde personalizado */
+    color: #001D3D; /* Color de texto personalizado */
+}
+
+header .btn-primary:hover {
+    background-color: #C0C0C0; /* Cambio de color de fondo al pasar el mouse */
+    border-color: #C0C0C0; /* Cambio de color de borde al pasar el mouse */
+    color: #001D3D; /* Color de texto al pasar el mouse */
+}
+
+/* Estilos para el título */
+h1 {
+    text-align: center; /* Centrar el título */
+    margin-top: 20px; /* Espacio superior */
+    color: #001D3D; /* Color de texto */
+}
+
+
+/* Estilos para la parte de resultados */
+
+/* Contenedor de resultados */
+.results-container {
+    margin-top: 20px;
+}
+
+/* Estilo para cada elemento de resultado */
+.result-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    list-style-type: none; /* Quitar puntos de la lista */
+}
+
+.result-item h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.result-item p {
+    margin: 5px 0;
+    color: #6c757d; /* Color de texto secundario */
+}
+
+/* Estilo para el mensaje de no resultados */
+.no-results {
+    text-align: center;
+    color: #dc3545; /* Color de texto para indicar error */
+    margin-top: 10px;
+}
+
+/* Estilo para enlaces dentro de los resultados */
+.result-item a {
+    color: #007bff; /* Color azul para enlaces */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.result-item a:hover {
+    text-decoration: underline; /* Subrayar enlaces al pasar el mouse */
+}
+
+
