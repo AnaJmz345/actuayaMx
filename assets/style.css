@@ -21,11 +21,11 @@ html, body{height: 100%}
 
 .topbartitles{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     align-items: flex-end;
     text-decoration: none;
-    margin : 5%;
+    margin : 2%;
 }
 
 img{
