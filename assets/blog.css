@@ -1,0 +1,58 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #caf0f8;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #120e0e;
+            margin-bottom: 40px;
+        }
+        .testimonial {S
+            text-align: center;
+            display: flex; /*align items horizontally */
+            align-items: center; /* Vertically align items in the center */
+            margin-bottom: 20px; /* Add space between testimonials */
+            background-color: #003566;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px #FFC300(0,0,0,0.1);
+
+        }
+        .testimonial img {
+            margin-right: 20px; /* Space between image and text */
+            width: 150px; /* Define width of the image */
+            height: 150px; /* Define height of the image */
+            object-fit: cover; /* Ensure the image fits well */
+            border-radius: 50%; /* Make images circular */
+            border: 3px solid #FFC300;
+        }
+        .testimonial p {
+            max-width: 600px; /* Limit the width of the text */
+            color: #fff;
+
+        }
+        .testimonials-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .leave-testimonial {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .leave-testimonial a {
+            text-decoration: none;
+            color: rgb(6, 28, 69);
+            font-weight: bold;
+        }
+
+        .leave-testimonial a:hover{
+            color: #c1121f;
+        }
+        .nombres{
+            color:white;
+        }
+    
