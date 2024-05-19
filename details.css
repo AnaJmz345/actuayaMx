@@ -1,0 +1,89 @@
+.topBar {
+    width: 100vw;
+    height: 15vh;
+    background-color: #001D3D;
+    display: flex;
+}
+
+.topBar img{
+    margin-right: 70vw;
+}
+#back{
+    color:white !important;
+    border-color:#001D3D !important;
+}
+#back:hover{
+    background-color: #001D3D !important;
+    color:#005BC1!important;
+}
+
+.title{
+    margin:2vw;
+}
+
+#share,#heart{
+    margin-right:0.7vw;
+}
+
+.buttons{
+    padding-left:20vw;
+    padding-top:4vh;
+}
+#moreInfo{
+    margin-left:7vw;
+    margin-right:7vw;
+}
+.namePerson{
+    margin-top:-1vw;
+    margin-left:2.1vw;
+    font-size:1.3vw;
+    margin-bottom:1.2vw;
+   
+}
+#share{
+  
+    border-color:white !important;
+    color: #0A1128 !important;
+}
+#favorites{
+    border-color:white !important;
+    color: #C71313 !important;
+}
+
+#favorites:hover{
+    background-color:#FFA2A2;
+    color:white !important;
+}
+#share:hover{
+    background-color: #DEDEDF !important;
+    color:#0A1128 !important;
+}
+
+.description{
+    width:60%;
+    margin-top:5vh;
+    margin-left:2.1vw;
+}
+
+.general{
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+#images{
+   padding:0;
+   margin:1vw;
+}
+#img1,#img2{
+    padding:0.4vw;
+    padding-right:0;
+}
+.all{
+    font-family: 'Poppins', sans-serif;
+}
+#contacto{
+    width:100%;
+    background-color: #034078 !important;
+    border-color: #034078 !important;
+}
+
