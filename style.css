@@ -1,0 +1,56 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 14px;
+    color: white; */
+    background-image: url('img/city.jpeg');
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center center;
+    /*text-transform: initial;*/
+    /*max-width: 100%;*/
+    margin: 0;
+}
+
+html, body{height: 100%}
+
+.topbar{
+    color: #001D3D;
+/* height: fit-content;*/
+  /*  width: 100%; */
+}
+
+.topbartitles{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    align-items: flex-end;
+    text-decoration: none;
+    margin : 2%;
+}
+
+img{
+    border:none;
+    /*max-width:5%; */
+    height:auto;
+}
+
+.bg-custom{
+    background-color: #001D3D;
+    opacity: 0.7;
+}
+
+nav{
+    display:block;
+}
+
+.botoncin{
+    color: #FFC300;
+    border-color: #FFC300;
+    font-weight:bolder;
+}
+
+.botoncin:hover{
+    background-color: white;
+    color: #FFC300;
+    border-color: #FFC300;
+}
