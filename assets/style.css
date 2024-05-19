@@ -1,8 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
-    /* font-size: 14px; */
-    color: white; 
-    text-transform: initial;
+    /* font-size: 14px;
+    color: white; */
+    background-image: url('Images/city.jpg');
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center center;
+    /*text-transform: initial;*/
     /*max-width: 100%;*/
     margin: 0;
 }
@@ -32,8 +36,21 @@ img{
 
 .bg-custom{
     background-color: #001D3D;
+    opacity: 0.7;
 }
 
 nav{
     display:block;
+}
+
+.botoncin{
+    color: #FFC300;
+    border-color: #FFC300;
+    font-weight:bolder;
+}
+
+.botoncin:hover{
+    background-color: white;
+    color: #FFC300;
+    border-color: #FFC300;
 }
